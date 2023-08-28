@@ -4,7 +4,7 @@ import ContactPanel from "./_components/ContactPanel";
 
 export default function Home() {
   return (
-    <div className="mx-8 flex items-center h-screen">
+    <div className="mx-8 flex items-center h-screen flex-col">
       {/* <PresentationCard /> */}
       <ContactPanel />
     </div>
