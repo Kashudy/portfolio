@@ -28,7 +28,7 @@ export default function ContactPanel() {
             cols={35}
             rows={5}
             placeholder="Message"
-            className=" border-2 rounded-sm w-full"
+            className=" resize-none  border-2 rounded-sm w-full"
           ></textarea>
         </div>
       </form>
