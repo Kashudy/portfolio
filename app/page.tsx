@@ -1,6 +1,5 @@
 import Image from "next/image";
-import PresentationCard from "./_components/presentationCard";
-import { ContactForm } from "./_components/ContactForm";
+import { ContactForm } from "../components/ContactForm";
 
 export default function Home() {
   return (

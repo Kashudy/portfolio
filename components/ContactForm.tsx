@@ -1,6 +1,7 @@
 "use client";
 
 import { FormEvent, useState } from "react";
+import { Button } from "@/components/ui/button";
 
 export function ContactForm() {
   const [name, setName] = useState("");
@@ -56,7 +57,7 @@ export function ContactForm() {
             className=" resize-none  border-2 rounded-sm w-full"
           ></textarea>
         </div>
-        <button type="submit">Send</button>
+        <Button type="submit">Send</Button>
       </form>
     </section>
   );
