@@ -1,3 +1,5 @@
+import { ThemeToggle } from "./ui/darkmodeToggle";
+
 export default function NavigationBar() {
   return (
     <nav className="flex justify-between p-4 items-center bg-red-50">
@@ -6,6 +8,7 @@ export default function NavigationBar() {
         <a href="http://">About</a>
         <a href="http://">Skills</a>
         <a href="http://">Contact</a>
+        <ThemeToggle />
       </div>
     </nav>
   );
