@@ -7,9 +7,9 @@ export default function NavigationBar() {
         Home
       </a>
       <div className=" pr-5 flex space-x-12 justify-center items-center">
-        <a href="http://">About</a>
-        <a href="http://">Skills</a>
-        <a href="http://">Contact</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
         <ThemeToggle />
       </div>
     </nav>

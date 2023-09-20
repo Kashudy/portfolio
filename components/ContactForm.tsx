@@ -28,7 +28,7 @@ export function ContactForm() {
   };
 
   return (
-    <section className=" flex flex-col ">
+    <section className=" flex flex-col " id="contact">
       <form onSubmit={onSubmit} className=" flex flex-col justify-evenly ">
         <h1 className="text-4xl font-bold pb-7 pt-5">Contact Me</h1>
         <div className=" pb-3">
