@@ -8,7 +8,7 @@ import { Textarea } from "@/components/ui/textarea";
 import Github from "@/components/_icons/github";
 import Linkedin from "@/components/_icons/linkedin";
 
-export function ContactForm() {
+export default function ContactForm() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
