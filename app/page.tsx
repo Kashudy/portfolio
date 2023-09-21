@@ -1,5 +1,5 @@
-import Skills from "@/components/Skills";
-import ContactForm from "@/components/ContactForm";
+import Skills from "@/components/_costum/Skills";
+import ContactForm from "@/components/_costum/ContactForm";
 
 export default function Home() {
   return (

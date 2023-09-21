@@ -1,4 +1,4 @@
-import { ThemeToggle } from "./ui/darkmodeToggle";
+import { ThemeToggle } from "../ui/themeToggle";
 
 export default function NavigationBar() {
   return (

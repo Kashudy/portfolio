@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Separator } from "./ui/separator";
+import { Separator } from "../ui/separator";
 import { imageSize } from "./Skills";
 
 export function SkillItem({ image, text }: { image: string; text: string }) {
